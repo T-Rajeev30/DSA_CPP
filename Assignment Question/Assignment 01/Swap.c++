@@ -10,9 +10,8 @@ void swapByValue(int a, int b) {
 void swapByReference(int &a, int &b) {
     int temp = a;
     a = b;
-    b = temp;
-    
-
+    b = temp;   
+}
 int main() {
     int x = 5, y = 10;
     cout << "Before swap (by value): x = " << x << ", y = " << y << endl;
